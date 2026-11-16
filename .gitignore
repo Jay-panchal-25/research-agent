@@ -1,0 +1,40 @@
+# Environment & Keys (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Output reports & temporary files
+reports_out/
+*.pdf
+*.log
+*.sqlite
+test_output.pdf
+dummy.txt
+
+# Agent artifacts
+.gemini/

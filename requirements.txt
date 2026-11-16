@@ -1,0 +1,23 @@
+# --- web / queue (Phase 1) ---
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+httpx>=0.27
+arq>=0.26
+redis>=5.0.1,<6
+pymongo>=4.13
+
+# --- agent / llm ---
+litellm>=1.50
+qdrant-client>=1.10
+
+# --- tools ---
+ddgs>=9.0
+trafilatura>=1.12
+lxml_html_clean>=0.1
+pymupdf>=1.24
+
+# --- reports ---
+reportlab>=4.0
